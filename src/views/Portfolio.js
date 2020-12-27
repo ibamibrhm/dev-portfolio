@@ -42,9 +42,7 @@ const Portfolio = () => {
             <Card.Text>{item.description}</Card.Text>
             Tech Stack:
             <Ul>
-              {item.stacks.map((stack, idx) => (
-                <li key={idx}>{stack}</li>
-              ))}
+              {item.stacks.map((stack, idx) => <li key={idx}>{stack}</li>)}
             </Ul>
             <Card.Text className="text-right">
               <ReactGA.OutboundLink

@@ -1,5 +1,4 @@
 import React from 'react';
-// import ReactGA from 'react-ga';
 import { Row, Col } from 'react-bootstrap';
 import ContentContainer from '../styles/ContentContainer.styled';
 
@@ -15,9 +14,19 @@ const Resume = () => {
           {/* employment section */}
           <Title name="Employment">
             <Content
+              title="Koding Next"
+              subtitle="Front-End Lecturer"
+              time="Jul 2020 - Present"
+            >
+              <ul className="pl-3">
+                <li>Teaching Front-end web development for Bootcamp students.</li>
+              </ul>
+            </Content>
+
+            <Content
               title="Pijak Digital Indonesia"
               subtitle="Full Stack Developer"
-              time="Jan 2020 - Present"
+              time="Jan 2020 - Dec 2020"
             >
               <ul className="pl-3">
                 <li>Developed marketplace website using Node.js and React.js.</li>

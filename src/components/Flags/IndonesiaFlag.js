@@ -23,4 +23,5 @@ IndonesiaFlag.propTypes = {
   switchLang: PropTypes.func.isRequired,
   lang: PropTypes.string.isRequired,
 };
+
 export default IndonesiaFlag;

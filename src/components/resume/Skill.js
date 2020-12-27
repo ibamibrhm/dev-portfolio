@@ -8,7 +8,6 @@ const H4 = styled.h4`
 `;
 
 const Rating = styled.span`
-  opacity: 0.3;
   height: 15px;
   width: 15px;
   background-color: #757575;
@@ -26,13 +25,7 @@ const Skill = ({ name, score }) => {
     <div className="d-flex justify-content-between my-2">
       <H4>{name}</H4>
       <div className="mr-4">
-        {Array.from({ length: 7 }, (_, i) =>
-          i < score ? (
-            <Rating key={i} style={{ opacity: 1 }} />
-          ) : (
-              <Rating key={i} />
-            )
-        )}
+        {Array.from({ length: 7 }, (_, i) => <Rating key={i} style={{ opacity: i < score ? 1 : 0.3 }} />)}
       </div>
     </div>
   );

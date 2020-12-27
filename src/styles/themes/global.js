@@ -73,7 +73,7 @@ export const TabStyles = createGlobalStyle`
 		background-color: transparent;
 		border: none;
 		font-size: 14px;
-		color: #B9B9B9;
+		color: ${({ theme }) => theme.tabsButton};
 	}
 
 	.react-tabs__tab:focus {
