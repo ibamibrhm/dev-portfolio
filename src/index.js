@@ -21,6 +21,7 @@ import 'react-tabs/style/react-tabs.css';
 import i18n from './locales';
 import ThemeContextProvider from './lib/themeContext';
 import App from './App';
+import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 
 library.add(
   faReadme,
@@ -41,3 +42,5 @@ ReactDOM.render(
   </I18nextProvider>,
   document.getElementById('root')
 );
+
+serviceWorkerRegistration.register();
