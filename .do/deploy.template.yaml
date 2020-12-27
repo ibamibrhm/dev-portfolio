@@ -7,4 +7,4 @@ spec:
       repo_clone_url: https://github.com/ibamibrhm/dev-portfolio.git
     build_command: yarn build
     output_dir: build
-    environment_slug: node-js
+    environment_slug: html
