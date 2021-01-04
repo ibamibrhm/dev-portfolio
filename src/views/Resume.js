@@ -14,9 +14,19 @@ const Resume = () => {
           {/* employment section */}
           <Title name="Employment">
             <Content
+              title="FinAccel"
+              subtitle="Full Stack Engineer"
+              time="Jan 2021 - Present"
+            >
+              <ul className="pl-3">
+                <li>Developing Kredivo and others FinAccel products.</li>
+              </ul>
+            </Content>
+
+            <Content
               title="Koding Next"
               subtitle="Front-End Lecturer"
-              time="Jul 2020 - Present"
+              time="Jul 2020 - Dec 2020"
             >
               <ul className="pl-3">
                 <li>Teaching Front-end web development for Bootcamp students.</li>
